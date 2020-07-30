@@ -5091,6 +5091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _myRigidbody: {fileID: 1577639930}
   _myExplosionEffect: {fileID: 1154063678762610552}
+  _shieldMat: {fileID: 2100000, guid: be42689e80dae794995e94de0d1e9ad3, type: 2}
 --- !u!1001 &4407953476999596437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5181,6 +5182,11 @@ PrefabInstance:
     - target: {fileID: 3253917354774570733, guid: 65ff01ca6137b1f47ab9a9351f79d7a2,
         type: 3}
       propertyPath: ShapeModule.m_Scale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253917354774570733, guid: 65ff01ca6137b1f47ab9a9351f79d7a2,
+        type: 3}
+      propertyPath: ShapeModule.radiusThickness
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3253917354774570735, guid: 65ff01ca6137b1f47ab9a9351f79d7a2,
