@@ -8,5 +8,7 @@ public class ShieldPosition : MonoBehaviour
     private void FixedUpdate()
     {
         transform.position = playerRB.position;
+        
+
     }
 }
